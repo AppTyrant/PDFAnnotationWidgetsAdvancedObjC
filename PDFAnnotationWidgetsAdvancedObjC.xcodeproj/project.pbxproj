@@ -14,6 +14,7 @@
 		BA9C274D2ACF2BDF001736EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA9C274C2ACF2BDF001736EB /* Assets.xcassets */; };
 		BA9C27502ACF2BDF001736EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA9C274E2ACF2BDF001736EB /* LaunchScreen.storyboard */; };
 		BA9C27532ACF2BDF001736EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9C27522ACF2BDF001736EB /* main.m */; };
+		BA9C275B2ACF2DC6001736EB /* MyForm.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BA9C275A2ACF2DC5001736EB /* MyForm.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		BA9C274F2ACF2BDF001736EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA9C27512ACF2BDF001736EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA9C27522ACF2BDF001736EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BA9C275A2ACF2DC5001736EB /* MyForm.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = MyForm.pdf; sourceTree = "<group>"; };
+		BA9C275C2ACF2F0B001736EB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,12 +71,22 @@
 				BA9C27462ACF2BDE001736EB /* ViewController.h */,
 				BA9C27472ACF2BDE001736EB /* ViewController.m */,
 				BA9C27492ACF2BDE001736EB /* Main.storyboard */,
+				BA9C275A2ACF2DC5001736EB /* MyForm.pdf */,
+				BA9C27592ACF2BEB001736EB /* Supporting Files */,
+			);
+			path = PDFAnnotationWidgetsAdvancedObjC;
+			sourceTree = "<group>";
+		};
+		BA9C27592ACF2BEB001736EB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA9C275C2ACF2F0B001736EB /* README.md */,
 				BA9C274C2ACF2BDF001736EB /* Assets.xcassets */,
 				BA9C274E2ACF2BDF001736EB /* LaunchScreen.storyboard */,
 				BA9C27512ACF2BDF001736EB /* Info.plist */,
 				BA9C27522ACF2BDF001736EB /* main.m */,
 			);
-			path = PDFAnnotationWidgetsAdvancedObjC;
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,6 +117,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1500;
+				ORGANIZATIONNAME = "App Tyrant Corp";
 				TargetAttributes = {
 					BA9C273C2ACF2BDE001736EB = {
 						CreatedOnToolsVersion = 15.0;
@@ -133,6 +147,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA9C275B2ACF2DC6001736EB /* MyForm.pdf in Resources */,
 				BA9C27502ACF2BDF001736EB /* LaunchScreen.storyboard in Resources */,
 				BA9C274D2ACF2BDF001736EB /* Assets.xcassets in Resources */,
 				BA9C274B2ACF2BDE001736EB /* Main.storyboard in Resources */,
